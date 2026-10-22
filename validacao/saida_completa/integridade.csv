@@ -1,0 +1,17 @@
+﻿checagem,status,detalhe
+Status só assume Q (quitado) ou A (em aberto),OK,"valores: ['A', 'Q']"
+Nenhum valor de título ≤ 0,OK,0 títulos
+Valor pago nunca excede o valor do título,OK,0 títulos
+Títulos quitados têm pago = valor,OK,0 divergentes
+Títulos em aberto sem pagamento parcial,ALERTA,3 títulos em aberto com pagamento parcial (R$ 311.54); o saldo considera o abatimento
+Dias de atraso = data de baixa − vencimento (quitados),OK,7542 de 7542 conferem
+Dias até a data-base = vencimento − data-base,OK,8151 de 8151 conferem
+Todo título quitado tem data de baixa,ALERTA,4 quitados sem data de baixa (R$ 4399.70); entram como pagos e pontuais
+Situação textual coerente com status e vencimento,ALERTA,"4 títulos com situação textual divergente (o painel usa o status, não o texto)"
+Datas de vencimento válidas e dentro da base,OK,20250110 a 20261209
+Base ordenada por vencimento,OK,
+"Tabela de títulos alinhada à base (venc, fornecedor, valor, pago, status)",OK,8151 × 8151 linhas
+Todo fornecedor referenciado existe no cadastro,OK,132 fornecedores
+Nomes de fornecedor únicos,OK,
+CNPJs com 14 dígitos,OK,118 CNPJs
+Prazo médio (emissão → baixa) auditável,LIMITAÇÃO,a base não traz a data de emissão; o prazo é conferido só quanto ao cálculo da média

@@ -1,0 +1,55 @@
+{
+  "arquivo": "index.html",
+  "modo": "padrão",
+  "titulos": 8151,
+  "fornecedores": 132,
+  "cenarios": 61,
+  "conferencias": 4640,
+  "ok": 4640,
+  "tolerancia": {
+    "reais": 0.0001,
+    "percentual_relativa": 1e-09,
+    "contagens": 0
+  },
+  "conferidas_com_valor_exato": 3760,
+  "texto_identico": 4629,
+  "maior_diferenca_reais": 2.9802322387695312e-08,
+  "divergencias": 0,
+  "erros_leitura": 0,
+  "por_pagina": {
+    "A pagar": {
+      "OK": 369
+    },
+    "Categorias": {
+      "OK": 952
+    },
+    "Comparar": {
+      "OK": 109
+    },
+    "Fluxo": {
+      "OK": 194
+    },
+    "Fornecedores": {
+      "OK": 642
+    },
+    "Performance": {
+      "OK": 422
+    },
+    "Performance · Pontualidade": {
+      "OK": 11
+    },
+    "Tabela de títulos": {
+      "OK": 22
+    },
+    "Visão geral": {
+      "OK": 1919
+    }
+  },
+  "integridade": {
+    "OK": 12,
+    "ALERTA": 3,
+    "LIMITAÇÃO": 1
+  },
+  "erros_js": [],
+  "segundos": 142.9
+}

@@ -1,0 +1,43 @@
+Integridade: {'OK': 12, 'ALERTA': 3, 'LIMITAÇÃO': 1}
+  [ALERTA] Títulos em aberto sem pagamento parcial: 3 títulos em aberto com pagamento parcial (R$ 311.54); o saldo considera o abatimento
+  [ALERTA] Todo título quitado tem data de baixa: 4 quitados sem data de baixa (R$ 4399.70); entram como pagos e pontuais
+  [ALERTA] Situação textual coerente com status e vencimento: 4 títulos com situação textual divergente (o painel usa o status, não o texto)
+  [LIMITAÇÃO] Prazo médio (emissão → baixa) auditável: a base não traz a data de emissão; o prazo é conferido só quanto ao cálculo da média
+Reconciliação (completo): 48438 números em 304 cenários · OK 47138 · divergências 1300 · erros de leitura 0 · 496.0s
+pagina                      metrica                                             
+Tabela de títulos           Filtro Todos · 'Total em aberto'                        235
+Performance                 Liquidações · total nas janelas                         102
+                            Liquidações · 01–07                                      82
+                            Liquidações · 08–14                                      65
+                            Liquidações · 22–28                                      54
+                            Liquidações · 15–21                                      47
+                            Pontualidade                                             45
+Performance · Pontualidade  Medidor                                                  45
+Performance                 Pontualidade · dica                                      45
+Visão geral                 Pontualidade                                             45
+Fornecedores                Rosca · total no centro                                  33
+                            Pareto · conclusão do subtítulo                          33
+Categorias                  Participação · Fretes e transporte · % do total          29
+                            Participação · Mercadorias para revenda · % do total     29
+                            Participação · Tributos · % do total                     29
+                            Participação · Folha e benefícios · % do total           29
+                            Participação · Aluguel e condomínio · % do total         28
+Performance                 Liquidações · 29–31                                      27
+Categorias                  Participação · Embalagens · % do total                   26
+Visão geral                 Composição · Logística · % do total                      25
+                            Composição · Tributos · % do total                       25
+                            Composição · Administrativo · % do total                 25
+                            Composição · Mercadorias · % do total                    25
+                            Composição · Pessoal · % do total                        25
+                            Composição · Financeiro                                  22
+                            Composição · Investimentos · % do total                  22
+Performance                 Liquidações · 29–30                                      18
+Categorias                  Participação · Armazenagem · % do total                  18
+                            Participação · Equipamentos e veículos · % do total      16
+Performance                 Pontualidade · variação                                  16
+Categorias                  Participação · Marketing · % do total                    14
+                            Participação · Tecnologia e software · % do total        12
+Visão geral                 Composição · Investimentos                                3
+                            Composição · Financeiro · % do total                      3
+Categorias                  Participação · Utilidades · % do total                    2
+Visão geral                 Total do período                                          1

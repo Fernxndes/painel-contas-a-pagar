@@ -1,0 +1,6 @@
+Integridade: {'OK': 12, 'ALERTA': 3, 'LIMITAÇÃO': 1}
+  [ALERTA] Títulos em aberto sem pagamento parcial: 3 títulos em aberto com pagamento parcial (R$ 311.54); o saldo considera o abatimento
+  [ALERTA] Todo título quitado tem data de baixa: 4 quitados sem data de baixa (R$ 4399.70); entram como pagos e pontuais
+  [ALERTA] Situação textual coerente com status e vencimento: 4 títulos com situação textual divergente (o painel usa o status, não o texto)
+  [LIMITAÇÃO] Prazo médio (emissão → baixa) auditável: a base não traz a data de emissão; o prazo é conferido só quanto ao cálculo da média
+Reconciliação (completo): 48463 números em 304 cenários · OK 48463 · divergências 0 · erros de leitura 0 · 495.8s

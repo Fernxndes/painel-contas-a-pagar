@@ -1,0 +1,27 @@
+== T1 animação x sem animação (51 estados) + T2 sanidade de texto
+  estados: 51 diferentes: 0 []
+  erros console sem anim/anim: [] []
+== T3 tooltips (hover em todos os gráficos de todas as abas)
+  tooltips lidos: 29
+== T4 tabela: CSV, virtualização, busca por CNPJ
+  linhas CSV: 1542 rodapé: 1542
+  linhas renderizadas: 17
+  maior top renderizado: 80132 esperado ~ 80132
+  busca por CNPJ (26083995): 20 resultados
+== T6 histórico (voltar/avançar)
+  volta1 igual ao estado 'Performance/Ano'? True
+== T8 alinhamento do indicador deslizante
+== T5 estresse: sequência rápida animada x sem animação
+  seed 1 ações executadas: 41 de 60 · mesma sequência nas duas rodadas: True · estado final igual: True · erros: 0
+  seed 2 ações executadas: 43 de 60 · mesma sequência nas duas rodadas: True · estado final igual: True · erros: 0
+  seed 3 ações executadas: 54 de 60 · mesma sequência nas duas rodadas: True · estado final igual: True · erros: 0
+  seed 4 ações executadas: 30 de 60 · mesma sequência nas duas rodadas: True · estado final igual: True · erros: 0
+  seed 5 ações executadas: 42 de 60 · mesma sequência nas duas rodadas: True · estado final igual: True · erros: 0
+== T7 viewports (overflow, truncamento de KPIs, erros)
+== T9 desempenho: maior intervalo entre quadros durante a animação
+  Ano: quadros=64 máx=50ms média=19.5ms
+  Tudo: quadros=60 máx=67ms média=20.8ms
+  Trimestre: quadros=66 máx=50ms média=18.7ms
+  Mês: quadros=65 máx=50ms média=19.2ms
+
+RESUMO: TUDO OK
